@@ -17,7 +17,7 @@ function App() {
     {/* Nama & Deskripsi */}
     <div className="header-text">
       <h1>Ari Bagas Ramadhan Wibowo</h1>
-      <p>Informatics Graduate | Front-End Developer</p>
+      <p>Informatics Graduate | Front-End Developer | IT Support</p>
     </div>
   </div>
 </header>
@@ -27,7 +27,14 @@ function App() {
   <h2>Tentang Saya</h2>
   <div className="about-card">
     <p>
-      Lulusan Teknik Informatika di <strong> Universitas Dian Nuswantoro </strong> dengan IPK 3,73 yang memiliki pengalaman dalam pengembangan aplikasi berbasis web menggunakan JavaScript dan ReactJS. Berpengalaman dalam merancang dan mengimplementasikan sistem informasi dari tahap analisis kebutuhan hingga deployment. Memiliki pemahaman mengenai integrasi REST API, manajemen state, serta pengolahan data berbasis web. Terbiasa bekerja secara kolaboratif dan memiliki kemampuan komunikasi yang baik. Siap berkontribusi dalam mendukung penguatan dan transformasi digital perusahaan berbasis sistem yang efisien dan terstruktur.
+      Lulusan Teknik Informatika di <strong> Universitas Dian Nuswantoro </strong> 
+      dengan IPK 3,73 yang memiliki pengalaman dalam pengembangan aplikasi berbasis web 
+      menggunakan JavaScript dan ReactJS. Berpengalaman dalam merancang 
+      dan mengimplementasikan sistem informasi dari tahap analisis kebutuhan hingga deployment. 
+      Memiliki pemahaman mengenai integrasi REST API, manajemen state, serta pengolahan data berbasis web.
+      Terbiasa bekerja secara kolaboratif dan memiliki kemampuan komunikasi yang baik. 
+      Siap berkontribusi dalam mendukung penguatan dan transformasi digital perusahaan berbasis sistem 
+      yang efisien dan terstruktur.
     </p>
   </div>
 </section>
