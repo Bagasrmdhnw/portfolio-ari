@@ -1,4 +1,5 @@
-import "./App.css";
+import "./App.css"
+import profilePic from "./assets/Fotoprofile.jpg"; // import foto dari src/assets
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
       <header className="header">
   <div className="header-content">
     {/* Foto Profil */}
-    <img 
-      src="/src/assets/Fotoprofile.jpg" 
+    <img src=
+      {profilePic}
       alt="Ari Bagas Ramadhan Wibowo" 
       className="profile-pic"
     />
