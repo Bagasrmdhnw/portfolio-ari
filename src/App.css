@@ -49,6 +49,49 @@ body, p, li, h1, h2, h3, h4, h5, h6, a, button {
   box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
 
+/* ===== About Section ===== */
+.about-card {
+  background: linear-gradient(145deg, #ffffff, #f0f4f8);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  line-height: 1.7;
+  color: #333;
+  transition: all 0.3s ease;
+  white-space: normal;       /* wrap teks panjang */
+  word-wrap: break-word;     /* pecah kata terlalu panjang */
+}
+
+.about-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+/* ===== Contact Section ===== */
+.contact-card {
+  background: linear-gradient(145deg, #ffffff, #f0f4f8); /* sama dengan card lainnya */
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.contact-card p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-card a.contact-btn {
+  margin-top: 10px;
+}
+
 /* Teks header */
 .header-text h1 {
   font-size: 2.2rem;
@@ -127,6 +170,97 @@ section h2 {
   color: #444;
 }
 
+/* ===== Education Section ===== */
+section h2.education-title {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e1e1e;
+  border-left: 5px solid #ff7f50; /* warna cerah tapi elegan */
+  padding-left: 10px;
+}
+
+/* Card untuk Education */
+section .education-card {
+  background: linear-gradient(145deg, #ffffff, #f0f4f8);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+section .education-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.education-card .school {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.education-card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.education-card ul li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+  color: #444;
+}
+/* ===== Volunteer Section ===== */
+.volunteer-title {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e1e1e;
+  border-left: 5px solid #ff69b4; /* pink cerah agar berbeda */
+  padding-left: 10px;
+}
+
+/* ===== Volunteer Section ===== */
+.volunteer-title {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e1e1e;
+  border-left: 5px solid #00ffff; /* samakan dengan section lain */
+  padding-left: 10px;
+}
+
+/* Card untuk Volunteer */
+.volunteer-card {
+  background: linear-gradient(145deg, #ffffff, #f0f4f8); /* sama dengan .card dan .skills-card */
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+.volunteer-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.volunteer-card .organization {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.volunteer-card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.volunteer-card ul li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+  color: #444;
+}
 /* ===== Footer ===== */
 /* ===== Footer ===== */
 footer {

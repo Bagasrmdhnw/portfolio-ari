@@ -24,58 +24,29 @@ function App() {
 
       {/* ABOUT */}
       <section>
-        <h2>Tentang Saya</h2>
-        <p>
-          Lulusan Teknik Informatika dengan IPK 3,73 yang memiliki 
-          pengalaman dalam pengembangan aplikasi berbasis web menggunakan
-          JavaScript dan ReactJS. Berpengalaman dalam merancang dan mengimplementasikan
-          sistem informasi dari tahap analisis kebutuhan hingga deployment.
-          Memiliki pemahaman mengenai integrasi REST API, manajemen state,
-          serta pengolahan data berbasis web. Terbiasa bekerja secara kolaboratif dan
-          memiliki kemampuan komunikasi yang baik. Siap berkontribusi dalam mendukung
-          penguatan dan transformasi digital perusahaan berbasis sistem yang efisien dan terstruktur.
-        </p>
-      </section>
-
-      {/* SKILLS */}
-      <section>
-  <h2>Technical Skills</h2>
-
-  {/* Programming & Web Development */}
-  <div className="skills-card">
-    <h3>Programming & Web Development</h3>
-    <ul>
-      <li>JavaScript (ES6+)</li>
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>ReactJS</li>
-    </ul>
-  </div>
-
-  {/* Tools & Technologies */}
-  <div className="skills-card">
-    <h3>Tools & Technologies</h3>
-    <ul>
-      <li>Git & GitHub</li>
-      <li>VS Code</li>
-      <li>Netlify</li>
-      <li>Vercel</li>
-      <li>Basic Node.js</li>
-    </ul>
-  </div>
-
-  {/* Concepts */}
-  <div className="skills-card">
-    <h3>Concepts</h3>
-    <ul>
-      <li>REST API Integration</li>
-      <li>Object-Oriented Programming (OOP)</li>
-      <li>Asynchronous Programming</li>
-      <li>Responsive Web Design</li>
-    </ul>
+  <h2>Tentang Saya</h2>
+  <div className="about-card">
+    <p>
+      Lulusan Teknik Informatika di <strong> Universitas Dian Nuswantoro </strong> dengan IPK 3,73 yang memiliki pengalaman dalam pengembangan aplikasi berbasis web menggunakan JavaScript dan ReactJS. Berpengalaman dalam merancang dan mengimplementasikan sistem informasi dari tahap analisis kebutuhan hingga deployment. Memiliki pemahaman mengenai integrasi REST API, manajemen state, serta pengolahan data berbasis web. Terbiasa bekerja secara kolaboratif dan memiliki kemampuan komunikasi yang baik. Siap berkontribusi dalam mendukung penguatan dan transformasi digital perusahaan berbasis sistem yang efisien dan terstruktur.
+    </p>
   </div>
 </section>
+{/* EDUCATION */}
+<section>
+  <h2>Education</h2>
 
+  <div className="card">
+    <h3>Universitas Dian Nuswantoro</h3>
+    <p className="company">S1 Teknik Informatika | 2020 – 2024</p>
+    <ul>
+      <li>Lulus dengan predikat <strong>Cum Laude</strong> (IPK 3,73)</li>
+      <li>Mempelajari pemrograman, pengembangan web, dan manajemen proyek TI</li>
+      <li>Melakukan penelitian dan proyek akhir yang berfokus pada pengembangan aplikasi berbasis web</li>
+      <li>Aktif mengikuti seminar dan kegiatan IT di kampus</li>
+    </ul>
+  </div>
+
+</section>
       {/* EXPERIENCE */}
       <section>
   <h2>Experience</h2>
@@ -119,6 +90,30 @@ function App() {
   </div>
 </section>
 
+<section>
+  <h2 className="volunteer-title">Volunteer Experience</h2>
+
+  <div className="volunteer-card">
+    <h3>Yayasan Disabilitas Tegal Bahari</h3>
+    <p className="organization">2024</p>
+    <ul>
+      <li>Mendokumentasikan kegiatan sosial dan membuat konten publikasi yang menarik untuk berbagai platform digital.</li>
+      <li>Mengelola media sosial untuk mendukung penyebaran informasi kegiatan yayasan secara efektif.</li>
+      <li>Berkontribusi dalam meningkatkan awareness masyarakat mengenai program sosial dan inklusivitas disabilitas.</li>
+    </ul>
+  </div>
+
+  <div className="volunteer-card">
+    <h3>Mantik Creative – Hari Jadi Kabupaten Tegal</h3>
+    <p className="organization">2019</p>
+    <ul>
+      <li>Berkoordinasi dalam pengelolaan logistik dan komunikasi eksternal selama acara berlangsung.</li>
+      <li>Membantu penyusunan strategi komunikasi untuk memastikan informasi kegiatan tersampaikan dengan jelas.</li>
+      <li>Berkontribusi dalam kesuksesan acara melalui dukungan teknis, dokumentasi, dan koordinasi tim.</li>
+    </ul>
+  </div>
+</section>
+
       <section>
   <h2>Projects</h2>
 
@@ -158,22 +153,59 @@ function App() {
   </a>
 </div>
 </section>
-
-      {/* CONTACT */}
+      {/* SKILLS */}
       <section>
-        <h2>Contact</h2>
-        <p>Email: aribagasramadhanwibowo09@gmail.com</p>
-        <p>LinkedIn: linkedin.com/in/aribagasrmdhnw</p>
-        <p>GitHub: github.com/bagasrmdhnw</p>
-        <a
-    href="https://wa.me/6287794012227"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="contact-btn"
-  >
-    Hubungi Saya
-  </a>
-      </section>
+  <h2>Technical Skills</h2>
+
+  {/* Programming & Web Development */}
+  <div className="skills-card">
+    <h3>Programming & Web Development</h3>
+    <ul>
+      <li>JavaScript (ES6+)</li>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>ReactJS</li>
+    </ul>
+  </div>
+
+  {/* Tools & Technologies */}
+  <div className="skills-card">
+    <h3>Tools & Technologies</h3>
+    <ul>
+      <li>Git & GitHub</li>
+      <li>VS Code</li>
+      <li>Netlify</li>
+      <li>Vercel</li>
+      <li>Basic Node.js</li>
+    </ul>
+  </div>
+
+  {/* Concepts */}
+  <div className="skills-card">
+    <h3>Concepts</h3>
+    <ul>
+      <li>REST API Integration</li>
+      <li>Object-Oriented Programming (OOP)</li>
+      <li>Asynchronous Programming</li>
+      <li>Responsive Web Design</li>
+    </ul>
+  </div>
+</section><section>
+  <h2>Contact</h2>
+  <div className="contact-card">
+    <p>Email: aribagasramadhanwibowo09@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/aribagasrmdhnw</p>
+    <p>GitHub: github.com/bagasrmdhnw</p>
+    <a
+      href="https://wa.me/6287794012227"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="contact-btn"
+    >
+      Hubungi Saya
+    </a>
+  </div>
+</section>
 
       <footer>
         <p>© 2026 Ari Bagas Ramadhan Wibowo</p>
