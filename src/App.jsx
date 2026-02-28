@@ -134,7 +134,27 @@ function App() {
       untuk data dinamis.
     </p>
     <a
-      href="#"
+      href="https://lib-bagas-master.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="card-btn"
+    >
+      Lihat Project
+    </a>
+  </div>
+    <h2>Project Website</h2>
+
+  <div className="card">
+    <h3>E-Commerce Website</h3>
+    <p>
+      Sebuah aplikasi web rekayasa yang dirancang untuk mengelola transksaksi pembelian barang, 
+      mulai dari katalog dan pembelian barang-barang secara efisien. 
+      Proyek ini mengasah kemampuan saya dalam membangun SPA menggunakan <strong>ReactJS</strong>, 
+      mengintegrasikan <strong>REST API</strong>, dan menerapkan konsep <strong>state management</strong> 
+      untuk data dinamis.
+    </p>
+    <a
+      href="https://ecommerce-app-nu-six.vercel.app"
       target="_blank"
       rel="noopener noreferrer"
       className="card-btn"
