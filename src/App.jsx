@@ -171,7 +171,7 @@ function App() {
     desain UI/UX, responsif web design, dan penerapan animasi halus untuk pengalaman pengguna yang lebih menarik.
   </p>
   <a
-    href="https://drive.google.com/drive/folder/YourFolderIDHere?usp=sharing"
+    href="https://drive.google.com/drive/folders/1-Y0rx2lW9zHfvxChuAr6rom0Q97vOGpE?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     className="card-btn"
